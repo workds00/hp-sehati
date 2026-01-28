@@ -65,6 +65,7 @@ input.addEventListener('input', () => {
         Harga Pasar: <b>Rp ${hargaPasar.toLocaleString('id-ID')}</b>
         <hr>
         <b>Harga setelah pajak mati</b>
+        <br>
         ${pajakHTML}
       </div>
     `;
