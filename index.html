@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Filter Harga Motor Bogor</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#2563eb">
+</head>
+<body>
+<button id="installBtn" class="install-btn" hidden>
+  📲 Install Aplikasi
+</button>
+  <div class="container">
+    <h2>Filter Harga Pasar Motor (Bogor)</h2>
+
+    <input 
+      type="text" 
+      id="filterInput" 
+      placeholder="Contoh: REVO 2015 / BEAT 2016"
+    >
+
+    <div id="result"></div>
+  </div>
+  
+  
+
+  <script src="main.js"></script>
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('sw.js');
+  }
+</script>
+</body>
+</html>
